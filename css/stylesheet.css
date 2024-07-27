@@ -1,0 +1,153 @@
+.Main{
+	height: 100%;
+	width: 100%;
+	position: absolute; 
+}
+.form-box{
+	width: 500px;
+	height: 480px;
+	position: relative;
+	margin: 6% auto;
+	background: #fff;
+	padding: 5px;
+	overflow: hidden;
+}
+.button-box{
+	width: 220px;
+	margin: 35px auto;
+	position: relative;
+	box-shadow: 0 0 20px 9px #33ffcc1f;
+	border-radius: 30px;
+}
+.toggle-btn{
+	padding: 10px 30px;
+	cursor: pointer;
+	background: transparent;
+	border:0;
+	outline: none;
+	position: relative;
+}
+.input-field{
+	width: 100%;
+	padding: 10px 0;
+	margin: 5px 0;
+	border-left: 0;
+	border-top: 0;
+	border-right: 0;
+	border-bottom: 1px solid #999;
+	outline: none;
+	background: transparent;
+}
+.form-boxx{
+	width: 500px;
+	height: 600px;
+	position: relative;
+	margin: 6% auto;
+	background: #fff;
+	padding: 5px;
+	overflow: hidden;
+}
+.input-fieldd{
+	width: 35%;
+	padding: 10px 0;
+	margin: 5px 0;
+	border-left: 0;
+	border-top: 0;
+	border-right: 0;
+	border-bottom: 1px solid #999;
+	outline: none;
+	background: transparent;
+}
+
+input {
+    padding: 10px;
+    border-radius: 5px;
+  }
+  
+  select {
+    padding: 10px;
+    border-radius: 5px;
+  }
+  
+  #upload {
+    padding: 10px;
+    border-radius: 5px;
+    border: 2px solid black;
+  }
+  
+  #headerSection {
+    padding: 2px;
+    font-family: Cursive;
+    
+  }
+  
+  #loginSection {
+    padding: 5px;
+  }
+  
+  body {
+    background-color: #FFA500;
+  }
+  
+  #loginbtn {
+    padding: 5px;
+    font-size: 15px;
+    background-color: #3498db;
+    color: white;
+    border-radius: 5px;
+  }
+  
+  #reglink {
+    padding: 5px;
+    font-size: 15px;
+    background-color: #3498db;
+    color: white;
+    border-radius: 5px;
+    text-decoration: none;
+  }
+  
+  a {
+    text-decoration: none;
+  }
+  
+  #mainSection {
+    padding: 10px;
+  }
+  
+  #profileSection {
+    width: 30%;
+    float: left;
+    background-color: white;
+    padding: 20px;
+  }
+  
+  #groupSection {
+    width: 60%;
+    float: right;
+    background-color: white;
+    padding: 20px;
+  }
+  
+  #back-button {
+    float: left;
+    margin-left: 20px;
+    margin-top: 20px;
+    padding: 5px;
+    font-size: 15px;
+    background-color: #3498db;
+    color: white;
+    border-radius: 5px;
+  }
+  
+  #logout-button {
+    float: right;
+    margin-right: 20px;
+    margin-top: 20px;
+    padding: 5px;
+    font-size: 15px;
+    background-color: #3498db;
+    color: white;
+    border-radius: 5px;
+  }
+
+

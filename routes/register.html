@@ -1,0 +1,41 @@
+<html>
+    <head>
+        <title>Online School voting system - Registratrion</title>
+        <link rel="stylesheet" href="../css/stylesheet.css">
+        <style> 
+            body {
+              background-image: url("e.jpg");
+              background-size: 100% 120%;
+              background-repeat: no-repeat;
+            }
+            </style>
+    </head>
+    <body>
+        <div class="Main">
+            <div class="form-boxx">
+        <center>
+
+            <h2>Registration</h2>
+                <form action="../api/register.php" method="POST" enctype="multipart/form-data">
+                    <input type="text" name="name" placeholder="Name" class="input-fieldd" required>&nbsp
+                    <input type="number" name="mob" placeholder="Mobile" class="input-fieldd"required><br><br>
+                    <input type="password" name="pass" placeholder="Password"class="input-fieldd" required>&nbsp
+                    <input type="password" name="cpass" placeholder="Confirm Password"class="input-fieldd" required><br><br>
+                    <input style="width: 50%" type="text" name="add" placeholder="Address"class="input-fieldd" required><br><br>
+                    <input type="text" name="Epic_no" placeholder="EPIC-no"class="input-fieldd" required><br><br>
+                    Upload image: <input type="file" id="profile" name="image"class="input-fieldd" required>
+                    <br><br>    
+                    Select your role:
+                        <select name="role">
+                            <option value="1">Voter</option>
+                            <option value="2">Candidate</option>
+                        </select>                   
+                    <br><br>
+                    <div class="button-box">                
+                        <button type="submit" class="toggle-btn" onclick="login()">register</button>
+                       </div>
+                    Already user? <a href="../first.html">Login here</a>
+                </form>
+            </center>
+    </body>
+</html>
